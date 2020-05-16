@@ -277,14 +277,6 @@ main()
 
 
 
-'''
-datatables = ["TICKERS","SF1", "SF2", "SF3", "EVENTS", "SF3A", "SF3B", "SEP", "INDICATORS", "DAILY", "SP500", "ACTIONS", "SFP"]
-response = request_handler(meta_url_builder(datatables[0]))
-headers = check_for_reserved(meta_parser(response.json()))
-keys = get_keys(headers)
-print(headers)
-print(len(headers))
-'''
 
 
 
