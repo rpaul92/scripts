@@ -2,7 +2,8 @@
 # Richard Paul
 # May 16 2020
 #
-#
+# This is the beginning of an app engine I will be making which gathers data and saves it at a remote db for analytical use. 
+# This version is just a proof of concept for myself, I plan on updating it further and than breaking out each subsection into full classes.
 #
 
 import quandl
